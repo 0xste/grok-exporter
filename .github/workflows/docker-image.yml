@@ -2,8 +2,10 @@ name: ci
 
 on:
   push:
-    branches-ignore:
-      - '**'
+#    branches-ignore:
+#      - '**'
+    branches:
+      - feat/ci
     tags:
       - 'v*.*.*'
 
