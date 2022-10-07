@@ -2,10 +2,8 @@ name: ci
 
 on:
   push:
-#    branches-ignore:
-#      - '**'
-    branches:
-      - feat/ci
+    branches-ignore:
+      - '**'
     tags:
       - 'v*.*.*'
 
@@ -33,4 +31,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: 0xste/grok-exporter:${{github.ref_name}}
+          tags: 0xste/grok-exporter:${{github.ref_name}},0xste/grok-exporter:latest
