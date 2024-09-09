@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 alpine:3.16.2
+FROM --platform=linux/amd64 alpine:3.20.3
 
 LABEL Maintainer="0xSte <https://github.com/0xSte>"
 LABEL Name="grok_exporter"
